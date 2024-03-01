@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Viagem dos sonhos</title>
+</head>
+<body>
+  <header>
+    <ul>
+      <li>Pacotes</li>
+      <li>Taxa</li>
+      <li>Contato</li>
+    </ul>
+    <h1>Venha realizar a viagem dos seus sonhos!</h1>  
+  </header>
+
+  <section>
+      <h2>Subtítulo</h2>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt varius urna, nec dictum metus lobortis ut. Vivamus et massa et odio vestibulum rutrum. Vivamus est ante, tincidunt non est tempus, lacinia feugiat tortor. Suspendisse potenti. Vivamus in placerat lorem, eu maximus dolor. Nullam eu diam tempus, eleifend ipsum in, condimentum purus. Quisque rhoncus mauris quam, in finibus ligula lacinia sed. Etiam semper ultrices nunc consequat consequat. Mauris ut porttitor diam. Nam a massa et velit placerat hendrerit vitae non neque. Duis nec orci sem. Maecenas viverra nulla eget ex iaculis, et venenatis justo interdum. Vivamus porta nisl non tortor lacinia, eget aliquam elit maximus. Cras vel elit elit. <br><br> <a href="https://br.lipsum.com/feed/html">Link</a>
+  </p>
+  <hr>
+
+  <figure>
+    <img src="./img/nossos-pacotes/gramado.jpeg" alt="Imagem de chalé em Gramado">
+    <figcaption>Gramado</figcaption>
+  </figure>
+  <figure>
+    <img src="./img/nossos-pacotes/porto-seguro.jpeg" alt="IPraia em Porto Seguro">
+    <figcaption>Porto Seguro</figcaption>
+  </figure>
+  <figure>
+    <img src="./img/nossos-pacotes/rio-de-janeiro.jpeg" alt="Rio de Janeiro visto de cima">
+    <figcaption>Rio de Janeiro</figcaption>
+  </figure>
+  </section>
+  <section>
+<!--     
+    <figure>
+      <img src="https://www.w3schools.com/html/pic_trulli.jpg" alt="Trulli" width="500" height="333" alt=""> 
+    </figure>
+     -->
+  </section>
+
+  <video controls width="500px">
+    <source src="./video/rabbit320.mp4" type="video/mp4">
+    <source src="./video/rabbit320.webm" type="video/webm">
+    Seu navegador não suporta o formato do vídeo. <a href="./video/rabbit320.mp4">Clique aqui para baixar.</a>
+  </video>
+
+  <section>
+    <h2>Orçamento</h2>
+    <form method="get" action="">
+      <fieldset>
+        <legend>Dados da Viagem</legend>
+        <label for="nome">Nome</label><br>
+        <input id="text" type="text" name="nome"><br><br>
+  
+        <label for="email">Email</label><br>
+        <input id="email" type="email" required name="email"><br><br>
+  
+        <label for="dataIda">Data de ida</label><br>
+        <input id="dataIda" type="date" name="dataIda"><br><br>
+  
+        <label for="dataVolta">Data de volta</label><br>
+        <input id="dataVolta" type="date" name="dataVolta"><br><br>
+  
+        <label for="qddPessoas">Quantidade de pessoas</label><br>
+        <input id="qddPessoas" type="number" name="qddPessoas"><br><br>  
+      </fieldset>
+
+      <fieldset>
+        <legend>Quais servios deseja contratar?</legend>
+        <label>
+          <br><input type="checkbox" name="passagens" value="passagens">Compra de passagens
+        </label>
+        <label>
+          <br><input type="checkbox" name="hospedagem" value="hospedagem">Reserva de hospedagem
+        </label>
+        <label>
+          <br><input type="checkbox" name="veiculos" value="veiculos">Reserva de veículos
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Escolha a forma de pagamento</legend>
+        <label>
+          <br><input type="radio" name="formaPagamento" value="Cartão de Crédito">Cartão de Crédito
+        </label>
+        <label>
+          <br><input type="radio" name="formaPagamento" value="Boleto">Boleto
+        </label>
+        <label>
+          <br><input type="radio" name="formaPagamento" value="PIX">PIX
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Escolha um prazo para pagamento</legend>
+        <select name="prazoPagamento">
+          <option value="aVista">À vista</option>
+          <option value="5x">5x sem juros</option>
+          <option value="10x" selected>10x com juros</option>
+
+        </select>
+      </fieldset>
+
+      <br><br>
+      <label>Comentário</label><br>
+      <textarea rows="5" name="comentario"></textarea><br><br>
+
+      <button>Salvar</button>
+    </form>
+  </section>
+  <br><br>
+  <section>
+    <h2>Taxas e Serviços</h2>
+    <p>Veja nossas taxas para serviços</p>
+    <table border="">
+      <caption>Descrição dos serviços e respectivos valores</caption>
+      <thead>
+        <tr>
+          <th>Serviço</th>
+          <th>Valor</th>
+        </tr>  
+      </thead>
+      <tbody>    
+        <tr>
+          <td>Reserva de hotel</td>
+          <td>R$ 150,00</td>
+        </tr>
+        <tr>
+          <td>Aluguel de carros</td>
+          <td>R$ 50,00</td>
+        </tr>
+        <tr>
+          <td>Compra de passagens</td>
+          <td>R$ 100,00</td>
+        </tr>
+    </tbody>
+    </table>
+  </section>
+  <br><br>
+  <footer>
+    Desenvolvido por Bruna Campos
+  </footer>
+</body>
+</html>
