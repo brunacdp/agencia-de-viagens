@@ -1,6 +1,10 @@
-# Agência de viagens
+# :airplane: Agência de viagens
 
-:airplane:  Site de agência de viagens
+  Site de agência de viagens
+
+  Projeto de site em andamento durante a matéria Practitioner Front End, da pós graduação em Desenvolvimento Full Stack, cursado na Descomplica
+  <br>
+  <br>
 
 ## Tecnologias
 > serão marcadas conforme o avanço das aulas
@@ -10,8 +14,9 @@
 - [ ] BootStrap
 - [ ] JavaScript
 
-###
-Projeto de site em andamento durante a matéria Practitioner Front End, da pós graduação em Desenvolvimento Full Stack, cursado na Descomplica
+<br>
+<br>
+
 > [!NOTE]
 > Elementos fictícios e utilizados apenas para fins educacionais.
 
