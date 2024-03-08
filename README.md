@@ -10,7 +10,7 @@
 > serão marcadas conforme o avanço das aulas
 
 - [X] HTML5
-- [ ] CSS
+- [X] CSS
 - [ ] BootStrap
 - [ ] JavaScript
 
