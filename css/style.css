@@ -1,0 +1,47 @@
+
+h1 {
+  font-size: 63px;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+header p {
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #303030;
+  font-weight: 600;
+}
+
+nav li a {
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+table {
+  width: 100%;
+}
+
+table td {
+  color: #303030;
+  padding: 5px;
+}
+
+table tr:nth-child(even) {
+  background-color: #e9e9e9;
+}
+
+table tr:nth-child(odd) {
+  background-color: #bdbdbd;
+}
+
+table thead th {
+  background-color: #f4511e;
+  color: white;
+}
