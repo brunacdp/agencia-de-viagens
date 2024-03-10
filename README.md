@@ -11,7 +11,7 @@
 
 - [X] HTML5
 - [X] CSS
-- [ ] BootStrap
+- [X] BootStrap
 - [ ] JavaScript
 
 <br>
