@@ -9,7 +9,7 @@
 
   :heavy_check_mark: Site de agêngia de viagens com slides no header, além cards e modal para seleção de pacotes e finalização de compra.
   
-  :link: Acesse o projeto [por aqui](https://agencia-de-viagens-brunacdp.vercel.app/).
+  :link: [Acesse o projeto por aqui](https://brunacdp.github.io/agencia-de-viagens/).
   <br>
   <br>
 
