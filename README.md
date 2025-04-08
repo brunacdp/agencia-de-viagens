@@ -5,7 +5,7 @@
 
   Site de agência de viagens
 
-  (Projeto de site em andamento durante a matéria Practitioner Front End, da pós graduação em Desenvolvimento Full Stack, cursado na Descomplica)
+  (Projeto de site em andamento durante a matéria Practitioner Front End)
 
   :heavy_check_mark: Site de agêngia de viagens com slides no header, além cards e modal para seleção de pacotes e finalização de compra.
   
